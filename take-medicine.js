@@ -6,6 +6,7 @@ const config = {
     channelSecret: process.env.LINE_SECRET,
     channelAccessToken: process.env.LINE_ACCESS_TOKEN
 };
+
 const client = new line.Client(config);
 
 module.exports = async function(time) {
